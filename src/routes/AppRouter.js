@@ -15,8 +15,14 @@ const routes = [
     layout: AppLayout,
   },
   {
+    path: '/pictures',
+    label: 'Pictures',
+    component: React.lazy(() => import('../views/PicturesView')),
+    layout: AppLayout,
+  },
+  {
     path: '/login',
-    label: 'Login',
+    label: 'Login page',
     component: React.lazy(() => import('../views/LoginView')),
     layout: AppLayout,
   },
@@ -39,4 +45,5 @@ const AppRouter = () => {
   );
 };
 
+export { routes };
 export default AppRouter;
