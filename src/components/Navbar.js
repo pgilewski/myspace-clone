@@ -80,7 +80,7 @@ function Navbar() {
                       aria-orientation='vertical'
                       aria-labelledby='user-menu'
                     >
-                      <Link
+                      {/*                       <Link
                         to=''
                         className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                         role='menuitem'
@@ -94,14 +94,14 @@ function Navbar() {
                         role='menuitem'
                       >
                         Settings
-                      </Link>
+                      </Link> */}
 
                       <Link
-                        to=''
+                        to='/login'
                         className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                         role='menuitem'
                       >
-                        Sign out
+                        Sign In
                       </Link>
                     </div>
                   </div>
@@ -190,7 +190,7 @@ function Navbar() {
           </div>
           <div className='pt-4 pb-3 border-t border-gray-700'>
             <div className='mt-3 px-2 space-y-1'>
-              <Link
+              {/*               <Link
                 to=''
                 href='#'
                 className='block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700'
@@ -205,13 +205,13 @@ function Navbar() {
               >
                 Settings
               </Link>
-
+ */}
               <Link
-                to=''
+                to='/login'
                 link='#'
                 className='block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700'
               >
-                Sign out
+                Sign In
               </Link>
             </div>
           </div>

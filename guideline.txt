@@ -1,0 +1,15 @@
+how to write mark down:
+https://www.markdownguide.org/cheat-sheet/
+
+planning events:
+calendar
+e.g. webinar
+
+add mp3's
+
+auth metod:
+passport
+https://passportjs.org/docs/downloads/html/
+
+Server Side: Node.js, Express.js, Passport Twitter API, MongoDB
+https://medium.com/free-code-camp/how-to-set-up-twitter-oauth-using-passport-js-and-reactjs-9ffa6f49ef0

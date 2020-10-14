@@ -6,8 +6,7 @@ import LayoutRoute from '../../../components/LayoutRoute';
 import NotFoundView from '../../../views/NotFoundView';
 
 const UsersRoutes = () => {
-  const match = useRouteMatch();
-
+  const match = useRouteMatch(
   return (
     <Switch>
       {/*       <LayoutRoute exact path={match.url} layout={} component={} />

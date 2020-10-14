@@ -13,18 +13,28 @@ const routes = [
     label: 'Main',
     component: React.lazy(() => import('../views/Dashboard')),
     layout: AppLayout,
+    onNavbar: true,
   },
   {
     path: '/pictures',
     label: 'Pictures',
     component: React.lazy(() => import('../views/PicturesView')),
     layout: AppLayout,
+    onNavbar: true,
   },
   {
     path: '/login',
     label: 'Login page',
     component: React.lazy(() => import('../views/LoginView')),
     layout: AppLayout,
+    onNavbar: false,
+  },
+  {
+    path: '/audio',
+    label: '',
+    component: React.lazy(() => import('../modules/Audio/Audio')),
+    layout: AppLayout,
+    onNavbar: false,
   },
 ];
 
