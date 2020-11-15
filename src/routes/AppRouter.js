@@ -23,6 +23,13 @@ const routes = [
     onNavbar: true,
   },
   {
+    path: '/documents',
+    label: 'Documents',
+    component: React.lazy(() => import('../views/Documents')),
+    layout: AppLayout,
+    onNavbar: true,
+  },
+  {
     path: '/login',
     label: 'Login page',
     component: React.lazy(() => import('../views/LoginView')),
