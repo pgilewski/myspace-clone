@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 
 const AppLayout = ({ children }) => {
   return (
-    <div class='min-h-screen bg-gray-400'>
+    <div class='min-h-screen bg-gray-200'>
       <Navbar />
       {children}
     </div>

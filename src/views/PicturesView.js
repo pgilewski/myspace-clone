@@ -16,26 +16,54 @@ export default function PicturesView() {
           onChange={(e) => onChange(e)}
           value={keyword}
           type='text'
-          class='font-mono py-2 px-2 bg-gray-400 border-2 border-blue-500 w-2/4 rounded'
+          class='font-mono w-1/3 4 py-2 px-2 rounded border border-gray-400 px-4 bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none '
           size='16'
         />
         <Link
           to='/pictures/upload'
-          className='ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded border-blue-800 border-opacity-75'
+          className='ml-2 py-2 px-4  rounded border border-gray-400 border-b block px-4 bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none'
         >
           Button
         </Link>
       </div>
-      <div className='py-12 px-4 sm:px-6 lg:px-8'>
+      <div className='my-12 px-4 sm:px-6 lg:px-8'>
         <div class=''>
-          <div class='grid xl:grid-cols-4  md:grid-cols-3 sm:grid-cols-1 gap-4 '>
-            <img src={photo} alt='test' />
-            <img src={photo} alt='test' />
-            <img src={photo} alt='test' />
-            <img src={photo} alt='test' />
-            <img src={photo} alt='test' />
-            <img src={photo} alt='test' />
-            <img src={photo} alt='test' />
+          <div class='grid xl:grid-cols-4  md:grid-cols-3 sm:grid-cols-1 gap-12 mx-12'>
+            <img
+              src={photo}
+              alt='test'
+              className='border border-gray-400 rounded-md shadow-md'
+            />
+            <img
+              src={photo}
+              alt='test'
+              className='border border-gray-400 rounded-md shadow-md'
+            />
+            <img
+              src={photo}
+              alt='test'
+              className='border border-gray-400 rounded-md shadow-md'
+            />
+            <img
+              src={photo}
+              alt='test'
+              className='border border-gray-400 rounded-md shadow-md'
+            />
+            <img
+              src={photo}
+              alt='test'
+              className='border border-gray-400 rounded-md shadow-md'
+            />
+            <img
+              src={photo}
+              alt='test'
+              className='border border-gray-400 rounded-md shadow-md'
+            />
+            <img
+              src={photo}
+              alt='test'
+              className='border border-gray-400 rounded-md shadow-md'
+            />
           </div>
         </div>
       </div>
